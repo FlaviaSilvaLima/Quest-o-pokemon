@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Pokemons Exemplo</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+      }
+
+      li button {
+        font-size: 8px;
+        margin-left: 20px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Crie um arquivo JavaScript e incorpore a este arquivo. (ok)
+Crie três variáveis que contenham referências aos elementos de lista (<ul>), <input> e <button>.(ok)
+Crie uma função que será executada em resposta ao botão que está sendo clicado. (ok)
+Dentro do corpo da função, comece armazenando o valor atual do elemento de entrada em uma variável.(ok)
+Em seguida, esvazie o elemento de entrada definindo seu valor como uma string vazia - ''.(ok)
+Crie três novos elementos - um item de lista (<li>), <span> e <button> e armazene-os em variáveis.(ok)
+Acrescente o <span> e o <button> como filhos do item da lista.(ok)
+Defina o conteúdo de texto do <span> para o valor do elemento de entrada que você salvou anteriormente 
+e o conteúdo de texto do botão como 'Excluir'.(ok)
+Anexe o item da lista como um filho da lista.(ok)
+Anexe um manipulador de eventos ao botão de exclusão, de modo que, quando clicado, exclua todo o item 
+da lista em que está.(ok)
+Finalmente, use o método focus() para focar o elemento de entrada pronto para inserir o próximo 
+item da lista (ok).-->
+
+    <h1>Meus Pokemons</h1>
+    <div>
+      <label for="item">Entre com um Novo Pokemon:</label>
+      <input type="text" name="item" id="item" />
+      <button onclick="buttonClick()"> Adicionar um Novo Pokemon</button>
+    </div>
+
+    <ul></ul>
+
+    <script type="text/JavaScript" src="script.js"></script>
+  </body>
+</html>
